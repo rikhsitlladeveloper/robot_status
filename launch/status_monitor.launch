@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+    
+    <node name="status" pkg="robot_status" type="status_monitor.py" output="screen" respawn="true" >
+    <rosparam file="$(find robot_status)/config/status.yaml" command="load"/>
+    </node>
+</launch>

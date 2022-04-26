@@ -1,0 +1,5 @@
+bms_status_flag: "/camel_amr_1000_001/roboteq_bms/status_flags"
+driver_status_flag: "/camel_amr_1000_001/roboteq_driver/status_flag"
+driver_fault_flag: "/camel_amr_1000_001/roboteq_driver/fault_flag"
+robot_status: "/camel_amr_1000_001/robot_status"
+move_base_status: "/camel_amr_1000_001/move_base/status"
